@@ -1,0 +1,9 @@
+*{
+    position: static;
+    align-items: center;
+    text-align: center;
+}
+.input{
+    margin-top: auto;
+    margin-bottom: 30px;
+}
