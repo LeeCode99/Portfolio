@@ -19,6 +19,9 @@ export default function Skills() {
         <li>
             feakldfjaslfs
         </li>
+        <li>
+            nah afejkhs
+        </li>
     </div>
     </>
 }

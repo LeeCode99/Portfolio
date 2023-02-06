@@ -12,14 +12,14 @@ export default function App() {
 
       <Intro></Intro>
       <Skills></Skills>
-      <div class="myImage" style={{
+      {/* <div class="myImage" style={{
         backgroundImage: `url(${littleMe})`,
         backgroundSize: "cover",
         height: "300px",
         width: "300px",
         marginLeft: "70%",
         color: "#f5f5f5"
-      }}></div>
+      }}></div> */}
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Email />}></Route>
