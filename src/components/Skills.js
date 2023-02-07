@@ -5,11 +5,12 @@ export default function Skills() {
     const skillStyle = {
         border: "10px solid rgb(23, 112, 30)",
         borderRadius: "20px",
-        width: "300px",
-        backgroundColor: "#d5f4e6",
+        backgroundColor: "#DBF9FC",
+        width: "25%",
         padding: "1vw",
         position:"relative",
-        left: "20px"
+        left: "20px",
+        
     };
 
     return <>
