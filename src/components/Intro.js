@@ -7,6 +7,6 @@ export default function Intro() {
     };
 
     return <>
-        <h2 style={myStyle}>Portfolio</h2>
+        <h2 style={myStyle}>Portfolio - Giwon</h2>
     </>
 }

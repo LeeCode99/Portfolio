@@ -37,7 +37,7 @@ export default function Email() {
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" name="message" rows={3} />
             </Form.Group>
-            
+
             <Button variant="secondary" type="submit">
                 Submit
             </Button>

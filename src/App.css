@@ -1,20 +1,24 @@
-*{
+* {
     position: static;
     align-items: center;
     text-align: center;
 }
 
-.input{
+.input {
     margin-top: auto;
     margin-bottom: 30px;
 }
-.EmailForm{
-    border: 2px solid rgb(51, 112, 112);
+
+.EmailForm {
+    border: 10px solid rgb(51, 112, 112);
     border-radius: 20px;
-    width:400px;
-    margin-top:85%;
+    width: 400px;
+    margin-bottom: 12%;
     display: inline-block;
+    padding:1vw;
+    color:white;
 }
-body{
+
+body {
     background: linear-gradient(#352e2e, #b8bbd5);
 }
