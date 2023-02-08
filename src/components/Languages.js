@@ -4,7 +4,7 @@ export default function Languages(){
 
     return <>
     <ul>
-        <li>zKorenan</li>
+        <li>Korenan</li>
         <li></li>
         <li></li>
 

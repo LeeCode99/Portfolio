@@ -9,8 +9,8 @@ export default function Skills() {
         width: "25%",
         padding: "1vw",
         position:"relative",
-        left: "20px",
-        
+        margin: "20px 0px 0px 20px",
+        // top right bottom left
     };
 
     return <>

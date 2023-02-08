@@ -12,8 +12,8 @@ export default function Intro() {
         padding: "1vw",
         marginBottom: "5px",
         width: "50%",
-        marginLeft: "20px",
-
+        margin: "15px 0px 0px 20px"
+        // top right bottom left
     };
     return <>
         <h2 style={myStyle}>Portfolio - Giwon</h2>

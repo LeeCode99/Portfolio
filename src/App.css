@@ -1,5 +1,5 @@
 * {
-    position: static;
+    position: relative;
     align-items: center;
     text-align: center;
 }
@@ -13,16 +13,16 @@
     border: 10px solid rgb(51, 112, 112);
     border-radius: 20px;
     width: 400px;
-    display: inline-block;
-    padding:1vw;
-    color:white;
+    padding: 1vw;
+    color: white;
     margin: auto;
-    margin-bottom:"15%";
+    margin-top:10%;
+
 }
-#div{
-    display:block;
-    margin: auto;
-}
+
+html,
 body {
     background: linear-gradient(#352e2e, #b8bbd5);
+
+    height: 100%;
 }
