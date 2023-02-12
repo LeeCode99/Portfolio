@@ -1,14 +1,12 @@
 import React from "react";
+import { BrowserRouter as Route, Link } from 'react-router-dom';
+export default function Languages() {
 
-export default function Languages(){
-
-    return <>
-    <ul>
-        <li>Korenan</li>
-        <li></li>
-        <li></li>
-
-    </ul>
-    
-    </>
+    return <div className="LanguageDiv">
+        <ul className="ListForLan">
+            <li>Korenan</li>
+            <li>English</li>
+        </ul>
+        <Link className="ReturnButtom" to="/">Return</Link>
+    </div>
 }

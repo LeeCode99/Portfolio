@@ -17,26 +17,22 @@ export default function App() {
     <>
     
       <Snowfall
-        color="white"
+        color="pink"
         snowflakeCount={120}
-      />
-      <Intro></Intro>
-      <Skills></Skills>
+        style={{ zIndex: 1 }}
 
+      />
+      
 
       <BrowserRouter>
-
+      
         <Routes>
-
-          <Route exact path="/" element={<Email />}></Route>
-
+          <Route exact path="/" element={<><Intro/><Skills/><Email/></>}></Route>
           <Route path="/lan" element={<Languages />}></Route>
         </Routes>
+        <Link className="LinkToLan" to='/lan'>Languages</Link>
       </BrowserRouter>
-      {/* <Link to='/' >fesa</Link><br></br>
-      <Link to='/lan' >fesa</Link>
-      <Link to='/lan' >fesa</Link> */}
-
+     
     </>
   )
 };
